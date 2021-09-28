@@ -42,15 +42,16 @@
     color: white;
     text-align: center;
     margin-top: 50px;
-    font-weight: 200;
-    font-size: 32px;
+    font-weight: 300;
+    font-size: 22px;
     text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.7);
 }
 
 .jumbotron .lead {
     color: white;
     text-align: center;
-    font-weight: 300;
+    font-weight: 200;
+    font-size: 16px;
     text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.7);
 }
 
@@ -137,8 +138,16 @@ footer .info-footer {
         color: white;
         text-align: center;
         margin-top: 150px;
-        font-weight: 400;
+        font-weight: 500;
         font-size: 54px;
+        text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.7);
+    }
+
+    .jumbotron .lead {
+        color: white;
+        text-align: center;
+        font-weight: 300;
+        font-size: 26px;
         text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.7);
     }
 }

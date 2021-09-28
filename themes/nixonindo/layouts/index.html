@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        {{ partial "head.html" . }}
+    </head>
+    <body>
+        <header>
+            {{ partial "header.html" . }}
+            {{ partial "header_lp.html" . }}
+        </header>
+        <div class="container">
+            <!-- info panel -->
+            <div class="row justify-content-center">
+                <div class="col-10 info-panel">
+                    <div class="row">
+                        <div class="col-lg">
+                            <img src="img/mech.png" alt="Mechanical" class="float-left">
+                            <h4>Mechanical</h4>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                        </div>
+                        <div class="col-lg">
+                            <img src="img/safety.png" alt="Safety" class="float-left">
+                            <h4>Safety</h4>
+                            <p>Lorem ipsum dolor sit amet consectetur.</p>
+                        </div>
+                        <div class="col-lg">
+                            <img src="img/cleaner.png" alt="Mechanical" class="float-left">
+                            <h4>Cleaner</h4>
+                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- akhir info panel -->   
+                    <!-- working space -->
+            <div class="row workingspace"> 
+                <div class="col-lg">
+                <img src="img/working-space.jpg" alt="Working Space" class="img-fluid float-left rounded">
+                </div>
+                <div class="col">
+                <h3>Tentang Nixonindo</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic dolorum mollitia autem ut minima ea culpa iusto necessitatibus voluptas, nihil earum similique cumque nobis voluptates perspiciatis dignissimos deserunt quae adipisci, nostrum dolore saepe. Asperiores, repellat dicta expedita rem amet consequuntur ea consectetur eum iusto autem ducimus sapiente eius harum hic?</p>
+                <button type="button" class="btn btn-primary">Primary</button>  
+                </div>
+            </div>
+            <div class="row workingspace">
+                <div class="col-lg">
+                <h3>Produk</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic dolorum mollitia autem ut minima ea culpa iusto necessitatibus voluptas, nihil earum similique cumque nobis voluptates perspiciatis dignissimos deserunt quae adipisci, nostrum dolore saepe. Asperiores, repellat dicta expedita rem amet consequuntur ea consectetur eum iusto autem ducimus sapiente eius harum hic?</p>
+                </div>
+                <div class="col">
+                <img src="img/working-space.jpg" alt="Working Space" class="img-fluid float-left rounded">
+                </div>
+            </div>
+            <!-- akhir working space -->
+        </div>  
+        {{ partial "footer.html" . }}
+    </body>
+</html>

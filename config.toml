@@ -1,0 +1,4 @@
+baseURL = 'http://example.org/'
+languageCode = 'id-ID'
+title = 'Nixonindo'
+theme = "nixonindo"
